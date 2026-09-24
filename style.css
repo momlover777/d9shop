@@ -1,0 +1,64 @@
+.main-title {
+    color: rgb(71, 13, 129);
+    height: 200px;
+    width: 600px;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: auto;
+    background-color: azure;
+    border-radius: 30px;
+     display: flex;
+  justify-content: center;
+}
+
+.products  {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+    font-family: fantasy;
+    color:rgb(101, 48, 153)
+}
+
+.card1 {
+    width: 200px;
+    height: 160px;
+    background-color: rgb(205, 248, 255);
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.main {
+    background-image: url('image/cannabis.png');
+}
+
+.fixed-nav {
+    position: fixed;   
+    bottom: 0;     
+    left: 0;         
+    width: 100%;       
+    z-index: 1000;     
+    
+
+    display: flex;
+    justify-content: center;
+    background-color: #a6f0f0;
+    padding: 15px 0;
+}
+
+
+.fixed-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-nav a {
+    color: white;
+    text-decoration: none;
+    color: rgb(71, 13, 129);
+    font-family: fantasy;
+}
