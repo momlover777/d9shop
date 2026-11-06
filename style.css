@@ -7,8 +7,9 @@
     margin: auto;
     background-color: azure;
     border-radius: 30px;
-     display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .products  {
@@ -21,7 +22,7 @@
 
 .card1 {
     width: 200px;
-    height: 160px;
+    min-height: 60px;
     background-color: rgb(205, 248, 255);
     margin: 100px;
     padding: 20px;
@@ -31,6 +32,9 @@
 
 .main {
     background-image: url('image/cannabis.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fixed-nav {
@@ -39,8 +43,6 @@
     left: 0;         
     width: 100%;       
     z-index: 1000;     
-    
-
     display: flex;
     justify-content: center;
     background-color: #a6f0f0;
@@ -57,7 +59,6 @@
 }
 
 .fixed-nav a {
-    color: white;
     text-decoration: none;
     color: rgb(71, 13, 129);
     font-family: fantasy;
